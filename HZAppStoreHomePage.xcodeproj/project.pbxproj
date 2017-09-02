@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A065461F5A51F500A8E5AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A065451F5A51F500A8E5AC /* AppDelegate.swift */; };
+		89A065481F5A51F500A8E5AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A065471F5A51F500A8E5AC /* ViewController.swift */; };
+		89A0654B1F5A51F500A8E5AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A065491F5A51F500A8E5AC /* Main.storyboard */; };
+		89A0654D1F5A51F500A8E5AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A0654C1F5A51F500A8E5AC /* Assets.xcassets */; };
+		89A065501F5A51F500A8E5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0654E1F5A51F500A8E5AC /* LaunchScreen.storyboard */; };
+		89A0655B1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A0655A1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift */; };
+		89A065661F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A065651F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A065571F5A51F500A8E5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A0653A1F5A51F500A8E5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A065411F5A51F500A8E5AC;
+			remoteInfo = HZAppStoreHomePage;
+		};
+		89A065621F5A51F500A8E5AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A0653A1F5A51F500A8E5AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A065411F5A51F500A8E5AC;
+			remoteInfo = HZAppStoreHomePage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89A065421F5A51F500A8E5AC /* HZAppStoreHomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZAppStoreHomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A065451F5A51F500A8E5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89A065471F5A51F500A8E5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89A0654A1F5A51F500A8E5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89A0654C1F5A51F500A8E5AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89A0654F1F5A51F500A8E5AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89A065511F5A51F500A8E5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A065561F5A51F500A8E5AC /* HZAppStoreHomePageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAppStoreHomePageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A0655A1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAppStoreHomePageTests.swift; sourceTree = "<group>"; };
+		89A0655C1F5A51F500A8E5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A065611F5A51F500A8E5AC /* HZAppStoreHomePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAppStoreHomePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A065651F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAppStoreHomePageUITests.swift; sourceTree = "<group>"; };
+		89A065671F5A51F500A8E5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A0653F1F5A51F500A8E5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A065531F5A51F500A8E5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A0655E1F5A51F500A8E5AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A065391F5A51F500A8E5AC = {
+			isa = PBXGroup;
+			children = (
+				89A065441F5A51F500A8E5AC /* HZAppStoreHomePage */,
+				89A065591F5A51F500A8E5AC /* HZAppStoreHomePageTests */,
+				89A065641F5A51F500A8E5AC /* HZAppStoreHomePageUITests */,
+				89A065431F5A51F500A8E5AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A065431F5A51F500A8E5AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A065421F5A51F500A8E5AC /* HZAppStoreHomePage.app */,
+				89A065561F5A51F500A8E5AC /* HZAppStoreHomePageTests.xctest */,
+				89A065611F5A51F500A8E5AC /* HZAppStoreHomePageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A065441F5A51F500A8E5AC /* HZAppStoreHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				89A065451F5A51F500A8E5AC /* AppDelegate.swift */,
+				89A065471F5A51F500A8E5AC /* ViewController.swift */,
+				89A065491F5A51F500A8E5AC /* Main.storyboard */,
+				89A0654C1F5A51F500A8E5AC /* Assets.xcassets */,
+				89A0654E1F5A51F500A8E5AC /* LaunchScreen.storyboard */,
+				89A065511F5A51F500A8E5AC /* Info.plist */,
+			);
+			path = HZAppStoreHomePage;
+			sourceTree = "<group>";
+		};
+		89A065591F5A51F500A8E5AC /* HZAppStoreHomePageTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A0655A1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift */,
+				89A0655C1F5A51F500A8E5AC /* Info.plist */,
+			);
+			path = HZAppStoreHomePageTests;
+			sourceTree = "<group>";
+		};
+		89A065641F5A51F500A8E5AC /* HZAppStoreHomePageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89A065651F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift */,
+				89A065671F5A51F500A8E5AC /* Info.plist */,
+			);
+			path = HZAppStoreHomePageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A065411F5A51F500A8E5AC /* HZAppStoreHomePage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A0656A1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePage" */;
+			buildPhases = (
+				89A0653E1F5A51F500A8E5AC /* Sources */,
+				89A0653F1F5A51F500A8E5AC /* Frameworks */,
+				89A065401F5A51F500A8E5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZAppStoreHomePage;
+			productName = HZAppStoreHomePage;
+			productReference = 89A065421F5A51F500A8E5AC /* HZAppStoreHomePage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A065551F5A51F500A8E5AC /* HZAppStoreHomePageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A0656D1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageTests" */;
+			buildPhases = (
+				89A065521F5A51F500A8E5AC /* Sources */,
+				89A065531F5A51F500A8E5AC /* Frameworks */,
+				89A065541F5A51F500A8E5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A065581F5A51F500A8E5AC /* PBXTargetDependency */,
+			);
+			name = HZAppStoreHomePageTests;
+			productName = HZAppStoreHomePageTests;
+			productReference = 89A065561F5A51F500A8E5AC /* HZAppStoreHomePageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89A065601F5A51F500A8E5AC /* HZAppStoreHomePageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A065701F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageUITests" */;
+			buildPhases = (
+				89A0655D1F5A51F500A8E5AC /* Sources */,
+				89A0655E1F5A51F500A8E5AC /* Frameworks */,
+				89A0655F1F5A51F500A8E5AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A065631F5A51F500A8E5AC /* PBXTargetDependency */,
+			);
+			name = HZAppStoreHomePageUITests;
+			productName = HZAppStoreHomePageUITests;
+			productReference = 89A065611F5A51F500A8E5AC /* HZAppStoreHomePageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A0653A1F5A51F500A8E5AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "韩兆华";
+				TargetAttributes = {
+					89A065411F5A51F500A8E5AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RF885RZM5Q;
+						ProvisioningStyle = Automatic;
+					};
+					89A065551F5A51F500A8E5AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RF885RZM5Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89A065411F5A51F500A8E5AC;
+					};
+					89A065601F5A51F500A8E5AC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RF885RZM5Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 89A065411F5A51F500A8E5AC;
+					};
+				};
+			};
+			buildConfigurationList = 89A0653D1F5A51F500A8E5AC /* Build configuration list for PBXProject "HZAppStoreHomePage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A065391F5A51F500A8E5AC;
+			productRefGroup = 89A065431F5A51F500A8E5AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A065411F5A51F500A8E5AC /* HZAppStoreHomePage */,
+				89A065551F5A51F500A8E5AC /* HZAppStoreHomePageTests */,
+				89A065601F5A51F500A8E5AC /* HZAppStoreHomePageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A065401F5A51F500A8E5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A065501F5A51F500A8E5AC /* LaunchScreen.storyboard in Resources */,
+				89A0654D1F5A51F500A8E5AC /* Assets.xcassets in Resources */,
+				89A0654B1F5A51F500A8E5AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A065541F5A51F500A8E5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A0655F1F5A51F500A8E5AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A0653E1F5A51F500A8E5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A065481F5A51F500A8E5AC /* ViewController.swift in Sources */,
+				89A065461F5A51F500A8E5AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A065521F5A51F500A8E5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A0655B1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A0655D1F5A51F500A8E5AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A065661F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A065581F5A51F500A8E5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A065411F5A51F500A8E5AC /* HZAppStoreHomePage */;
+			targetProxy = 89A065571F5A51F500A8E5AC /* PBXContainerItemProxy */;
+		};
+		89A065631F5A51F500A8E5AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A065411F5A51F500A8E5AC /* HZAppStoreHomePage */;
+			targetProxy = 89A065621F5A51F500A8E5AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A065491F5A51F500A8E5AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A0654A1F5A51F500A8E5AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89A0654E1F5A51F500A8E5AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A0654F1F5A51F500A8E5AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A065681F5A51F500A8E5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89A065691F5A51F500A8E5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A0656B1F5A51F500A8E5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89A0656C1F5A51F500A8E5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		89A0656E1F5A51F500A8E5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZAppStoreHomePage.app/HZAppStoreHomePage";
+			};
+			name = Debug;
+		};
+		89A0656F1F5A51F500A8E5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HZAppStoreHomePage.app/HZAppStoreHomePage";
+			};
+			name = Release;
+		};
+		89A065711F5A51F500A8E5AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HZAppStoreHomePage;
+			};
+			name = Debug;
+		};
+		89A065721F5A51F500A8E5AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RF885RZM5Q;
+				INFOPLIST_FILE = HZAppStoreHomePageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HZAppStoreHomePage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A0653D1F5A51F500A8E5AC /* Build configuration list for PBXProject "HZAppStoreHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A065681F5A51F500A8E5AC /* Debug */,
+				89A065691F5A51F500A8E5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A0656A1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A0656B1F5A51F500A8E5AC /* Debug */,
+				89A0656C1F5A51F500A8E5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89A0656D1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A0656E1F5A51F500A8E5AC /* Debug */,
+				89A0656F1F5A51F500A8E5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89A065701F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A065711F5A51F500A8E5AC /* Debug */,
+				89A065721F5A51F500A8E5AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A0653A1F5A51F500A8E5AC /* Project object */;
+}
