@@ -14,6 +14,12 @@
 		89A065501F5A51F500A8E5AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0654E1F5A51F500A8E5AC /* LaunchScreen.storyboard */; };
 		89A0655B1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A0655A1F5A51F500A8E5AC /* HZAppStoreHomePageTests.swift */; };
 		89A065661F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A065651F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift */; };
+		89A0657E1F5A993900A8E5AC /* CarouselFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A0657D1F5A993900A8E5AC /* CarouselFigureView.swift */; };
+		89A065B11F5A9C3800A8E5AC /* UIImageViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A065B01F5A9C3800A8E5AC /* UIImageViewExtention.swift */; };
+		89FB4F9A1F5E9DFF002B9FC7 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB4F991F5E9DFF002B9FC7 /* UIViewExtention.swift */; };
+		89FB4FA41F5F8E9F002B9FC7 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB4FA31F5F8E9F002B9FC7 /* ListViewController.swift */; };
+		89FB4FA61F5F98EC002B9FC7 /* SortViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FB4FA51F5F98EC002B9FC7 /* SortViewController.swift */; };
+		A418869DB8067F416128910A /* Pods_HZAppStoreHomePage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D2A09328D3739E2C9E13D /* Pods_HZAppStoreHomePage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320D2A09328D3739E2C9E13D /* Pods_HZAppStoreHomePage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HZAppStoreHomePage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E089ED385579501D65BF4A /* Pods-HZAppStoreHomePage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZAppStoreHomePage.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZAppStoreHomePage/Pods-HZAppStoreHomePage.release.xcconfig"; sourceTree = "<group>"; };
+		533233FBB2103A3E54CC5B4F /* Pods-HZAppStoreHomePage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZAppStoreHomePage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZAppStoreHomePage/Pods-HZAppStoreHomePage.debug.xcconfig"; sourceTree = "<group>"; };
 		89A065421F5A51F500A8E5AC /* HZAppStoreHomePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZAppStoreHomePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A065451F5A51F500A8E5AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89A065471F5A51F500A8E5AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,36 @@
 		89A065611F5A51F500A8E5AC /* HZAppStoreHomePageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZAppStoreHomePageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A065651F5A51F500A8E5AC /* HZAppStoreHomePageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZAppStoreHomePageUITests.swift; sourceTree = "<group>"; };
 		89A065671F5A51F500A8E5AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A0657D1F5A993900A8E5AC /* CarouselFigureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselFigureView.swift; sourceTree = "<group>"; };
+		89A065B01F5A9C3800A8E5AC /* UIImageViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtention.swift; sourceTree = "<group>"; };
+		89BBD5911F5CE50A00DF9438 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		89BBD5921F5CE50A00DF9438 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89BBD5941F5CE50A00DF9438 /* AnimatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		89BBD5951F5CE50A00DF9438 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		89BBD5961F5CE50A00DF9438 /* CacheSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheSerializer.swift; sourceTree = "<group>"; };
+		89BBD5971F5CE50A00DF9438 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		89BBD5981F5CE50A00DF9438 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
+		89BBD5991F5CE50A00DF9438 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		89BBD59A1F5CE50A00DF9438 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		89BBD59B1F5CE50A00DF9438 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		89BBD59C1F5CE50A00DF9438 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePrefetcher.swift; sourceTree = "<group>"; };
+		89BBD59D1F5CE50A00DF9438 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		89BBD59E1F5CE50A00DF9438 /* ImageTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		89BBD59F1F5CE50A00DF9438 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+		89BBD5A01F5CE50A00DF9438 /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		89BBD5A11F5CE50A00DF9438 /* Kingfisher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kingfisher.h; sourceTree = "<group>"; };
+		89BBD5A21F5CE50A00DF9438 /* Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kingfisher.swift; sourceTree = "<group>"; };
+		89BBD5A31F5CE50A00DF9438 /* KingfisherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherManager.swift; sourceTree = "<group>"; };
+		89BBD5A41F5CE50A00DF9438 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		89BBD5A51F5CE50A00DF9438 /* RequestModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModifier.swift; sourceTree = "<group>"; };
+		89BBD5A61F5CE50A00DF9438 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		89BBD5A71F5CE50A00DF9438 /* String+MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+MD5.swift"; sourceTree = "<group>"; };
+		89BBD5A81F5CE50A00DF9438 /* ThreadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadHelper.swift; sourceTree = "<group>"; };
+		89BBD5A91F5CE50A00DF9438 /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		89BBD5D71F5CE59D00DF9438 /* Kingfisher-master.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Kingfisher-master.zip"; path = "HZAppStoreHomePage/Kingfisher/Sources/Kingfisher-master.zip"; sourceTree = "<group>"; };
+		89FB4F991F5E9DFF002B9FC7 /* UIViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
+		89FB4FA31F5F8E9F002B9FC7 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		89FB4FA51F5F98EC002B9FC7 /* SortViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SortViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A418869DB8067F416128910A /* Pods_HZAppStoreHomePage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +121,8 @@
 				89A065591F5A51F500A8E5AC /* HZAppStoreHomePageTests */,
 				89A065641F5A51F500A8E5AC /* HZAppStoreHomePageUITests */,
 				89A065431F5A51F500A8E5AC /* Products */,
+				89BBD58F1F5CE50A00DF9438 /* Frameworks */,
+				FAFF4AA478C4581E6F293896 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +139,13 @@
 		89A065441F5A51F500A8E5AC /* HZAppStoreHomePage */ = {
 			isa = PBXGroup;
 			children = (
+				89A0657D1F5A993900A8E5AC /* CarouselFigureView.swift */,
+				89A065B01F5A9C3800A8E5AC /* UIImageViewExtention.swift */,
+				89FB4F991F5E9DFF002B9FC7 /* UIViewExtention.swift */,
 				89A065451F5A51F500A8E5AC /* AppDelegate.swift */,
 				89A065471F5A51F500A8E5AC /* ViewController.swift */,
+				89FB4FA31F5F8E9F002B9FC7 /* ListViewController.swift */,
+				89FB4FA51F5F98EC002B9FC7 /* SortViewController.swift */,
 				89A065491F5A51F500A8E5AC /* Main.storyboard */,
 				89A0654C1F5A51F500A8E5AC /* Assets.xcassets */,
 				89A0654E1F5A51F500A8E5AC /* LaunchScreen.storyboard */,
@@ -125,6 +172,65 @@
 			path = HZAppStoreHomePageUITests;
 			sourceTree = "<group>";
 		};
+		89BBD58F1F5CE50A00DF9438 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89BBD5D71F5CE59D00DF9438 /* Kingfisher-master.zip */,
+				89BBD5901F5CE50A00DF9438 /* Kingfisher */,
+				320D2A09328D3739E2C9E13D /* Pods_HZAppStoreHomePage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89BBD5901F5CE50A00DF9438 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				89BBD5911F5CE50A00DF9438 /* LICENSE */,
+				89BBD5921F5CE50A00DF9438 /* README.md */,
+				89BBD5931F5CE50A00DF9438 /* Sources */,
+			);
+			name = Kingfisher;
+			path = HZAppStoreHomePage/Kingfisher;
+			sourceTree = "<group>";
+		};
+		89BBD5931F5CE50A00DF9438 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				89BBD5941F5CE50A00DF9438 /* AnimatedImageView.swift */,
+				89BBD5951F5CE50A00DF9438 /* Box.swift */,
+				89BBD5961F5CE50A00DF9438 /* CacheSerializer.swift */,
+				89BBD5971F5CE50A00DF9438 /* Filter.swift */,
+				89BBD5981F5CE50A00DF9438 /* FormatIndicatedCacheSerializer.swift */,
+				89BBD5991F5CE50A00DF9438 /* Image.swift */,
+				89BBD59A1F5CE50A00DF9438 /* ImageCache.swift */,
+				89BBD59B1F5CE50A00DF9438 /* ImageDownloader.swift */,
+				89BBD59C1F5CE50A00DF9438 /* ImagePrefetcher.swift */,
+				89BBD59D1F5CE50A00DF9438 /* ImageProcessor.swift */,
+				89BBD59E1F5CE50A00DF9438 /* ImageTransition.swift */,
+				89BBD59F1F5CE50A00DF9438 /* ImageView+Kingfisher.swift */,
+				89BBD5A01F5CE50A00DF9438 /* Indicator.swift */,
+				89BBD5A11F5CE50A00DF9438 /* Kingfisher.h */,
+				89BBD5A21F5CE50A00DF9438 /* Kingfisher.swift */,
+				89BBD5A31F5CE50A00DF9438 /* KingfisherManager.swift */,
+				89BBD5A41F5CE50A00DF9438 /* KingfisherOptionsInfo.swift */,
+				89BBD5A51F5CE50A00DF9438 /* RequestModifier.swift */,
+				89BBD5A61F5CE50A00DF9438 /* Resource.swift */,
+				89BBD5A71F5CE50A00DF9438 /* String+MD5.swift */,
+				89BBD5A81F5CE50A00DF9438 /* ThreadHelper.swift */,
+				89BBD5A91F5CE50A00DF9438 /* UIButton+Kingfisher.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAFF4AA478C4581E6F293896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				533233FBB2103A3E54CC5B4F /* Pods-HZAppStoreHomePage.debug.xcconfig */,
+				34E089ED385579501D65BF4A /* Pods-HZAppStoreHomePage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89A0656A1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePage" */;
 			buildPhases = (
+				143D270FD42D72B436033B69 /* [CP] Check Pods Manifest.lock */,
 				89A0653E1F5A51F500A8E5AC /* Sources */,
 				89A0653F1F5A51F500A8E5AC /* Frameworks */,
 				89A065401F5A51F500A8E5AC /* Resources */,
+				2CA50FC0FA75F18938E60373 /* [CP] Embed Pods Frameworks */,
+				5A437529954E16100FB856D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +366,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		143D270FD42D72B436033B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2CA50FC0FA75F18938E60373 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZAppStoreHomePage/Pods-HZAppStoreHomePage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A437529954E16100FB856D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZAppStoreHomePage/Pods-HZAppStoreHomePage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89A0653E1F5A51F500A8E5AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89FB4F9A1F5E9DFF002B9FC7 /* UIViewExtention.swift in Sources */,
+				89A065B11F5A9C3800A8E5AC /* UIImageViewExtention.swift in Sources */,
+				89FB4FA41F5F8E9F002B9FC7 /* ListViewController.swift in Sources */,
 				89A065481F5A51F500A8E5AC /* ViewController.swift in Sources */,
+				89FB4FA61F5F98EC002B9FC7 /* SortViewController.swift in Sources */,
 				89A065461F5A51F500A8E5AC /* AppDelegate.swift in Sources */,
+				89A0657E1F5A993900A8E5AC /* CarouselFigureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,26 +577,34 @@
 		};
 		89A0656B1F5A51F500A8E5AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533233FBB2103A3E54CC5B4F /* Pods-HZAppStoreHomePage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RF885RZM5Q;
 				INFOPLIST_FILE = HZAppStoreHomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		89A0656C1F5A51F500A8E5AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E089ED385579501D65BF4A /* Pods-HZAppStoreHomePage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RF885RZM5Q;
 				INFOPLIST_FILE = HZAppStoreHomePage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanzhaohua.HZAppStoreHomePage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +686,7 @@
 				89A0656C1F5A51F500A8E5AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89A0656D1F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +695,7 @@
 				89A0656F1F5A51F500A8E5AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89A065701F5A51F500A8E5AC /* Build configuration list for PBXNativeTarget "HZAppStoreHomePageUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +704,7 @@
 				89A065721F5A51F500A8E5AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
